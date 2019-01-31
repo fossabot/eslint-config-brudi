@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "config:js-lib",
+    "group:linters"
+  ],
+  "schedule": "every weekend",
+  "prConcurrentLimit": 3,
+  "prHourlyLimit": 1,
+  "assignees": ["brudi/solutions-web"],
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  },
+  "encrypted": {
+    "npmToken": "pF+bKDKL8Sfmx7IX6uBOmvPLRKB+pxwlSoIccNZdIGzHf5ECsMC5duYy0yOs/t8SeyTOo1ShB/ByIcg2iICBEqN8R5I4lpJd3TgMxp1eW7+7K3yPTM8BDh9cNhzxyH4ThD0mNX2u4g7Wij0aFlOtX7CUjyoKsoAehXfY/px1yt2J+5wvtIHIA4ftZGKiCq/WOPakUklMk11xVHT2Sknchz6wbr+mAuuDwtDQ8wV9flsJAdF4v6WpXvTibrXQ61b7pKGZtysz2k5OiMfwvHKGm4CHje/okS0zz+TCLADlJ3zNr4uGXX6++wjnw1DfhMiS01Xg54ruXAShtCXf70ujzQ=="
+  }
+}

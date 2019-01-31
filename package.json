@@ -1,0 +1,29 @@
+{
+  "name": "@brudi/eslint-config-brudi",
+  "version": "0.1.5",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.js",
+    "prettier.config.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0",
+    "prettier": "^1.15.3"
+  },
+  "dependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-prettier": "3.6.0",
+    "eslint-plugin-import": "2.15.0",
+    "eslint-plugin-jsx-a11y": "6.2.0",
+    "eslint-plugin-prettier": "3.0.1",
+    "eslint-plugin-react": "7.12.4",
+    "prettier": "1.16.1"
+  }
+}
